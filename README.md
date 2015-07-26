@@ -20,6 +20,7 @@
     * Professionalism
     * Secret Sauce
     * No Trickery
+1. (HTML page snippet)
 1. Exercise: Write down your top 5 search phrases
     * Match what the user will type (concise!)
     * Does word order matter?
@@ -126,3 +127,5 @@
 
     * http://seositecheckup.com/
     * http://static.googleusercontent.com/media/www.google.com/en/us/webmasters/docs/search-engine-optimization-starter-guide.pdf
+		
+    * http://www.entireweb.com/free_submission/
