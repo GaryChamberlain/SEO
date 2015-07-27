@@ -211,11 +211,101 @@ seo.story = {
 					]
 				},
 				{	text: ["Real content! (credibility)", "Page title (exact phrase)", "Matching H1 tag", "Phrases in content (2-4%)", "Descriptive URLs"],
-					init: {class: "textLine", font:8, pos:{y:3}}, linesInit:{class:"textShadow", opacity:0, pos:[10,0,-30], bullets:true, scale:90},
+					init: {class: "textLine", font:8}, linesInit:{class:"textShadow", opacity:0, pos:[3,0,-3], bullets:true, scale:90},
 					lineScripts: [
 						{scriptType:"step18", action: {delay:0.2, anim:{dur:1,stagger:0.1}, opacity:100, pos:false}},
-						{scriptType:"step19", action: {anim:{dur:1,stagger:0.1}, opacity:0, pos:[10,0,-30] }}
+						{scriptType:"step19", action: {anim:{dur:1,stagger:0.1}, opacity:0, pos:[3,0,-3] }}
 					]
+				},
+				{	text: "URLs",
+					init: {class: "topTitle", font:8, anchor:[-50,-50]}, wordsInit:{class:"textShadow", opacity:0, pos:[-30,-40],scale:300},
+					wordScripts: [
+						{scriptType:"step19", action: {delay:0.2, anim:{dur:2,stagger:0.1}, opacity:100, pos:[-47,-50], scale:100}},
+						{scriptType:"step20", action: {anim:0.7, opacity:0 }}
+					]
+				},
+				{	text: ["Fancy name for 'web address'", "Use keywords for paths", "Be concise", "Use a canonical link!"],
+					init: {class: "textLine", font:8}, linesInit:{class:"textShadow", opacity:0, bullets:true, scale:90},
+					lineScripts: [
+						{scriptType:"step19", action: {delay:1.2, anim:{dur:1,stagger:0.1}, opacity:100}},
+						{scriptType:"step20", action: {anim:{dur:1,stagger:0.1}, opacity:0, pos:[3,0,-3] }}
+					]
+				},
+				{	text: "URLs (these are all different!)",
+					init: {class: "topTitle", font:8, anchor:[-50,-50]}, wordsInit:{class:"textShadow", opacity:0, pos:[-47,-50]},
+					wordScripts: [
+						{scriptType:"step20", action: {anim:2, opacity:100}},
+						{scriptType:"step21", action: {anim:0.7, opacity:0, pos:[-50,-50] }}
+					]
+				},
+				{	text: ["http://website.com", "http://www.website.com", "http://www.website.com/", "http://www.website.com?a=b", "https://website.com", "https://www.website.com"],
+					init: {class: "textLine", font:8}, linesInit:{class:"textShadow", opacity:0, scale:90},
+					lineScripts: [
+						{scriptType:"step20", action: {delay:1.2, anim:{dur:1,stagger:0.1}, opacity:100}},
+						{scriptType:"step21", action: {anim:{dur:1,stagger:0.1}, opacity:0, pos:[3,0,-3] }}
+					]
+				},
+				{	text: "PageRank",
+					init: {class: "topTitle", font:8, anchor:[-50,-50]}, wordsInit:{class:"textShadow", opacity:0, pos:[-50,-50]},
+					wordScripts: [
+						{scriptType:"step21", action: {delay:0.2, anim:{dur:2,stagger:0.1}, opacity:100, pos:[-47,-50]}},
+						{scriptType:"step28", action: {anim:0.7, opacity:0, pos:[-50,-50] }}
+					]
+				},
+				{	text: "?",
+					init: {class: "text", font:50}, charInit: {class:"textShadow", opacity:0, scale:250, rot:[-270,30,180]},
+					charScripts: [
+						{scriptType:"step21", action: {delay:2, anim:{dur:7,ease:"less elastic"}, scale:100, rot:false, opacity:false}},
+						{scriptType:"step22", action: {anim:0.7, opacity:0 }}
+					]
+				},
+				{	text: "Popularity",
+					init: {class: "title"}, wordsInit:{opacity:0, textShadow:[[0,0,0,"rgba(255,255,255,1)"],[0.5,0.5,1,"rgba(0,0,0,1)"]]},
+					wordScripts: [
+						{scriptType:"step22", action: {anim:{dur:2,stagger:0.1}, opacity:100}},
+						{scriptType:"step23", action: {anim:0.7, opacity:0 }}
+					],
+					script: { scriptType:"step4", action: {anim:7,scale:110}}
+				},
+				{	text: "People Like<br>Your Content",
+					init: {class: "title"}, wordsInit:{opacity:0, textShadow:[[0,0,0,"rgba(255,255,255,1)"],[0.5,0.5,1,"rgba(0,0,0,1)"]]},
+					wordScripts: [
+						{scriptType:"step23", action: {anim:{dur:2,stagger:0.1}, opacity:100}},
+						{scriptType:"step24", action: {anim:0.7, opacity:0 }}
+					],
+					script: { scriptType:"step4", action: {anim:7,scale:110}}
+				},
+				{	text: "They Select it in<br>Search Results",
+					init: {class: "title"}, wordsInit:{opacity:0, textShadow:[[0,0,0,"rgba(255,255,255,1)"],[0.5,0.5,1,"rgba(0,0,0,1)"]]},
+					wordScripts: [
+						{scriptType:"step24", action: {anim:{dur:2,stagger:0.1}, opacity:100}},
+						{scriptType:"step25", action: {anim:0.7, opacity:0 }}
+					],
+					script: { scriptType:"step4", action: {anim:7,scale:110}}
+				},
+				{	text: "They Stay On Your<br>Page for Awhile",
+					init: {class: "title"}, wordsInit:{opacity:0, textShadow:[[0,0,0,"rgba(255,255,255,1)"],[0.5,0.5,1,"rgba(0,0,0,1)"]]},
+					wordScripts: [
+						{scriptType:"step25", action: {anim:{dur:2,stagger:0.1}, opacity:100}},
+						{scriptType:"step26", action: {anim:0.7, opacity:0 }}
+					],
+					script: { scriptType:"step4", action: {anim:7,scale:110}}
+				},
+				{	text: "They Link to it",
+					init: {class: "title"}, wordsInit:{opacity:0, textShadow:[[0,0,0,"rgba(255,255,255,1)"],[0.5,0.5,1,"rgba(0,0,0,1)"]]},
+					wordScripts: [
+						{scriptType:"step26", action: {anim:{dur:2,stagger:0.1}, opacity:100}},
+						{scriptType:"step27", action: {anim:0.7, opacity:0 }}
+					],
+					script: { scriptType:"step4", action: {anim:7,scale:110}}
+				},
+				{	text: "They Come Back",
+					init: {class: "title"}, wordsInit:{opacity:0, textShadow:[[0,0,0,"rgba(255,255,255,1)"],[0.5,0.5,1,"rgba(0,0,0,1)"]]},
+					wordScripts: [
+						{scriptType:"step27", action: {anim:{dur:2,stagger:0.1}, opacity:100}},
+						{scriptType:"step28", action: {anim:0.7, opacity:0 }}
+					],
+					script: { scriptType:"step4", action: {anim:7,scale:110}}
 				}
 			]
 		}

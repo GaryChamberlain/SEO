@@ -30,6 +30,18 @@
     * Keywords and phrases in content
     * Descriptive URLs		
     * Real content! (credibility)
+1. URLs
+    * URL is a fancy name for 'web address'
+		* Use keywords for paths (concise!)
+    * These are all different from the search engine's perspective
+        * http://website.com
+        * http://www.website.com
+        * http://www.website.com/
+        * http://www.website.com?a=b
+        * https://website.com
+        * https://www.website.com
+    * You can use multiple, but tell which is the canonical one!
+    * &lt;link rel=”canonical”&gt;
 1. Page Rank
     * Inbound and Outbound links
         * Links from user sites, social media is good
@@ -47,18 +59,6 @@
     * Doorway/gateway pages
     * Bait-and-switch (Page swapping)
     * Duplicated content/mirror sites
-1. URLs
-    * URL is a fancy name for 'web address'
-		* Use keywords for paths (concise!)
-    * These are all different from the search engine's perspective
-        * http://website.com
-        * http://www.website.com
-        * http://www.website.com/
-        * http://www.website.com?a=b
-        * https://website.com
-        * https://www.website.com
-    * You can use multiple, but tell which is the canonical one!
-    * &lt;link rel=”canonical”&gt;
 1. Page Rank is mapped to URLs
     * Pages, not websites
     * Avoid changing URLs!
