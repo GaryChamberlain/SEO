@@ -108,30 +108,99 @@ seo.story = {
 						{scriptType:"step9", action: {anim:{dur:1,stagger:0.1}, opacity:0, pos:[10,0,-30] }}
 					]
 				},
+				{
+					itemType:"image",
+					src:"images/HTML1.png",
+					width:100,
+					init: {opacity:0},
+					scripts: [
+					  {scriptType:"step9", action:{anim:2, opacity:100}},
+						{scriptType:"step10", action:{anim:1, opacity:0}}
+					]
+				},
+				{
+					itemType:"image",
+					src:"images/HTML2.png",
+					width:100,
+					init: {opacity:0},
+					scripts: [
+					  {scriptType:"step10", action:{anim:1, opacity:100}},
+						{scriptType:"step11", action:{anim:1, opacity:0}}
+					]
+				},
+				{
+					itemType:"image",
+					src:"images/HTML3.png",
+					width:100,
+					init: {opacity:0},
+					scripts: [
+					  {scriptType:"step11", action:{anim:2, opacity:100}},
+						{scriptType:"step12", action:{anim:1, opacity:0}}
+					]
+				},
+				{
+					itemType:"image",
+					src:"images/HTML4.png",
+					width:100,
+					init: {opacity:0},
+					scripts: [
+					  {scriptType:"step12", action:{anim:2, opacity:100}},
+						{scriptType:"step13", action:{anim:1, opacity:0}}
+					]
+				},
+				{
+					itemType:"image",
+					src:"images/HTML5.png",
+					width:100,
+					init: {opacity:0},
+					scripts: [
+					  {scriptType:"step13", action:{anim:2, opacity:100}},
+						{scriptType:"step14", action:{anim:1, opacity:0}}
+					]
+				},
+				{
+					itemType:"image",
+					src:"images/HTML6.png",
+					width:100,
+					init: {opacity:0},
+					scripts: [
+					  {scriptType:"step14", action:{anim:2, opacity:100}},
+						{scriptType:"step15", action:{anim:1, opacity:0}}
+					]
+				},
+				{
+					itemType:"image",
+					src:"images/HTML1.png",
+					width:100,
+					init: {opacity:0},
+					scripts: [
+					  {scriptType:"step15", action:{anim:2, opacity:100}},
+						{scriptType:"step16", action:{anim:1, opacity:0}}
+					]
+				},
 				{	text: "Exercise:",
 					init: {class: "topTitle", anchor:[-50,-50]}, wordsInit:{class:"textShadow", opacity:0, pos:[-50,-50]},
 					wordScripts: [
-						{scriptType:"step9", action: {delay:0.2, anim:{dur:2,stagger:0.1}, opacity:100, pos:[-47,-50]}},
-						{scriptType:"step11", action: {anim:0.7, opacity:0, pos:[-50,-50] }}
+						{scriptType:"step16", action: {delay:0.2, anim:{dur:2,stagger:0.1}, opacity:100, pos:[-47,-50]}},
+						{scriptType:"step18", action: {anim:0.7, opacity:0, pos:[-50,-50] }}
 					]
 				},
 				{	text: "Write down your top 5 search phrases",
 					init: {class: "title"}, wordsInit:{opacity:0, class:"textShadow"},
 					wordScripts: [
-						{scriptType:"step9", action: {delay:0.5, anim:{dur:2,stagger:0.1}, opacity:100}},
-						{scriptType:"step10", action: {anim:0.7,opacity:0 }}
+						{scriptType:"step16", action: {delay:0.5, anim:{dur:2,stagger:0.1}, opacity:100}},
+						{scriptType:"step17", action: {anim:0.7,opacity:0 }}
 					],
 					scripts: [
-						{scriptType:"step9", action: {anim:7,scale:110}},
-						{scriptType:"step10", action: {anim:0.3,scale:90}}
-					],
-					charScript: {scriptType:"step11", action: {anim:{dur:1,stagger:0.02,ease:"less elastic"}, pos:[-8,-35]} }
+						{scriptType:"step16", action: {anim:7,scale:110}},
+						{scriptType:"step17", action: {anim:0.3,scale:90}}
+					]
 				},
 				{	text: ["Exact phrases (concise!)", "Does word order matter?", "Future: Think of 15-20 more"],
 					init: {class: "textLine", font:8.5}, linesInit:{class:"textShadow", opacity:0, pos:[10,0,-30], bullets:true, scale:90},
 					lineScripts: [
-						{scriptType:"step10", action: {anim:{dur:1,stagger:0.7}, opacity:100, pos:false}},
-						{scriptType:"step11", action: {anim:0.7, opacity:0 }}
+						{scriptType:"step17", action: {anim:{dur:1,stagger:0.7}, opacity:100, pos:false}},
+						{scriptType:"step18", action: {anim:0.7, opacity:0 }}
 					]
 				}
 			]
