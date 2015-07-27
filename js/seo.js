@@ -265,47 +265,89 @@ seo.story = {
 						{scriptType:"step22", action: {anim:{dur:2,stagger:0.1}, opacity:100}},
 						{scriptType:"step23", action: {anim:0.7, opacity:0 }}
 					],
-					script: { scriptType:"step4", action: {anim:7,scale:110}}
+					script: { scriptType:"step22", action: {anim:7,scale:110}}
 				},
 				{	text: "People Like<br>Your Content",
 					init: {class: "title"}, wordsInit:{opacity:0, textShadow:[[0,0,0,"rgba(255,255,255,1)"],[0.5,0.5,1,"rgba(0,0,0,1)"]]},
 					wordScripts: [
 						{scriptType:"step23", action: {anim:{dur:2,stagger:0.1}, opacity:100}},
 						{scriptType:"step24", action: {anim:0.7, opacity:0 }}
-					],
-					script: { scriptType:"step4", action: {anim:7,scale:110}}
+					]
 				},
 				{	text: "They Select it in<br>Search Results",
 					init: {class: "title"}, wordsInit:{opacity:0, textShadow:[[0,0,0,"rgba(255,255,255,1)"],[0.5,0.5,1,"rgba(0,0,0,1)"]]},
 					wordScripts: [
 						{scriptType:"step24", action: {anim:{dur:2,stagger:0.1}, opacity:100}},
 						{scriptType:"step25", action: {anim:0.7, opacity:0 }}
-					],
-					script: { scriptType:"step4", action: {anim:7,scale:110}}
+					]
 				},
 				{	text: "They Stay On Your<br>Page for Awhile",
 					init: {class: "title"}, wordsInit:{opacity:0, textShadow:[[0,0,0,"rgba(255,255,255,1)"],[0.5,0.5,1,"rgba(0,0,0,1)"]]},
 					wordScripts: [
 						{scriptType:"step25", action: {anim:{dur:2,stagger:0.1}, opacity:100}},
 						{scriptType:"step26", action: {anim:0.7, opacity:0 }}
-					],
-					script: { scriptType:"step4", action: {anim:7,scale:110}}
+					]
 				},
 				{	text: "They Link to it",
 					init: {class: "title"}, wordsInit:{opacity:0, textShadow:[[0,0,0,"rgba(255,255,255,1)"],[0.5,0.5,1,"rgba(0,0,0,1)"]]},
 					wordScripts: [
 						{scriptType:"step26", action: {anim:{dur:2,stagger:0.1}, opacity:100}},
 						{scriptType:"step27", action: {anim:0.7, opacity:0 }}
-					],
-					script: { scriptType:"step4", action: {anim:7,scale:110}}
+					]
 				},
 				{	text: "They Come Back",
 					init: {class: "title"}, wordsInit:{opacity:0, textShadow:[[0,0,0,"rgba(255,255,255,1)"],[0.5,0.5,1,"rgba(0,0,0,1)"]]},
 					wordScripts: [
 						{scriptType:"step27", action: {anim:{dur:2,stagger:0.1}, opacity:100}},
 						{scriptType:"step28", action: {anim:0.7, opacity:0 }}
+					]
+				},
+				{	text: "PageRank is Like Currency",
+					init: {class: "topTitle", pos:[-40,-5], font:8}, wordsInit:{opacity:0, class:"textShadow"},
+					wordScripts: [
+						{scriptType:"step28", action: {anim:{dur:2,stagger:0.1}, opacity:100}},
+						{scriptType:"step34", action: {anim:0.7,opacity:0 }}
 					],
-					script: { scriptType:"step4", action: {anim:7,scale:110}}
+					scripts: [
+						{scriptType:"step28", action: {anim:2,scale:110}},
+						{scriptType:"step29", action: {anim:1,scale:90,pos:[-36,-24]}}
+					],
+					charScript: {scriptType:"step29", action: {anim:{dur:0.5,stagger:0.02,ease:"sine"}, pos:[-14,-30]} }
+				},
+				{	text: "Pages Have It<br>(not sites)",
+					init: {class: "title"}, wordsInit:{opacity:0, textShadow:[[0,0,0,"rgba(255,255,255,1)"],[0.5,0.5,1,"rgba(0,0,0,1)"]]},
+					wordScripts: [
+						{scriptType:"step29", action: {delay:0.5, anim:{dur:2,stagger:0.1}, opacity:100}},
+						{scriptType:"step30", action: {anim:0.7, opacity:0 }}
+					]
+				},
+				{	text: "Pages Give It Away<br>(through links)",
+					init: {class: "title"}, wordsInit:{opacity:0, textShadow:[[0,0,0,"rgba(255,255,255,1)"],[0.5,0.5,1,"rgba(0,0,0,1)"]]},
+					wordScripts: [
+						{scriptType:"step30", action: {anim:{dur:2,stagger:0.1}, opacity:100}},
+						{scriptType:"step31", action: {anim:0.7, opacity:0 }}
+					]
+				},
+				{	text: "Links from Blogs<br>Social Media,<br>Customers, etc.,<br>are all Good!",
+					init: {class: "title", font:8}, wordsInit:{opacity:0, textShadow:[[0,0,0,"rgba(255,255,255,1)"],[0.5,0.5,1,"rgba(0,0,0,1)"]]},
+					wordScripts: [
+						{scriptType:"step31", action: {anim:{dur:2,stagger:0.1}, opacity:100}},
+						{scriptType:"step32", action: {anim:0.7, opacity:0 }}
+					]
+				},
+				{	text: "Links from<br>Highly Credibility Sites<br>are Really Good!",
+					init: {class: "title", font:8}, wordsInit:{opacity:0, textShadow:[[0,0,0,"rgba(255,255,255,1)"],[0.5,0.5,1,"rgba(0,0,0,1)"]]},
+					wordScripts: [
+						{scriptType:"step32", action: {anim:{dur:2,stagger:0.1}, opacity:100}},
+						{scriptType:"step33", action: {anim:0.7, opacity:0 }}
+					]
+				},
+				{	text: "Link Farms are BAD!",
+					init: {class: "title"}, wordsInit:{opacity:0, textShadow:[[0,0,0,"rgba(255,255,255,1)"],[0.5,0.5,1,"rgba(0,0,0,1)"]]},
+					wordScripts: [
+						{scriptType:"step33", action: {anim:{dur:2,stagger:0.1}, opacity:100}},
+						{scriptType:"step34", action: {anim:0.7, opacity:0 }}
+					]
 				}
 			]
 		}
