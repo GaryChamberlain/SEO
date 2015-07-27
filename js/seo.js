@@ -202,6 +202,20 @@ seo.story = {
 						{scriptType:"step17", action: {anim:{dur:1,stagger:0.7}, opacity:100, pos:false}},
 						{scriptType:"step18", action: {anim:0.7, opacity:0 }}
 					]
+				},
+				{	text: "Strategic Content per Phrase",
+					init: {class: "topTitle", font:8, anchor:[-50,-50]}, wordsInit:{class:"textShadow", opacity:0, pos:[-50,-50]},
+					wordScripts: [
+						{scriptType:"step18", action: {delay:0.2, anim:{dur:2,stagger:0.1}, opacity:100, pos:[-47,-50]}},
+						{scriptType:"step19", action: {anim:0.7, opacity:0, pos:[-50,-50] }}
+					]
+				},
+				{	text: ["Real content! (credibility)", "Page title (exact phrase)", "Matching H1 tag", "Phrases in content (2-4%)", "Descriptive URLs"],
+					init: {class: "textLine", font:8, pos:{y:3}}, linesInit:{class:"textShadow", opacity:0, pos:[10,0,-30], bullets:true, scale:90},
+					lineScripts: [
+						{scriptType:"step18", action: {delay:0.2, anim:{dur:1,stagger:0.1}, opacity:100, pos:false}},
+						{scriptType:"step19", action: {anim:{dur:1,stagger:0.1}, opacity:0, pos:[10,0,-30] }}
+					]
 				}
 			]
 		}

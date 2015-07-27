@@ -23,13 +23,13 @@
 1. Exercise: Write down your top 5 search phrases
     * Match what the user will type (concise!)
     * Does word order matter?
-    * Future: Think of 15-20 more				
-1. Strategic content per key-phrase
+    * Future: Think of 15-20 more			
+1. Strategic content per phrase
     * Page title (exact phrase)
     * Matching H1 tag
-    * Appropriate keywords and phrases in the text content
+    * Keywords and phrases in content
     * Descriptive URLs		
-    * Meaty content (credibility)
+    * Real content! (credibility)
 1. Page Rank
     * Inbound and Outbound links
         * Links from user sites, social media is good
