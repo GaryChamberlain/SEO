@@ -18,7 +18,6 @@
     * Freshness
     * Disclosure
     * Professionalism
-    * Secret Sauce
     * No Trickery
 1. (HTML page snippet)
 1. Exercise: Write down your top 5 search phrases
@@ -69,7 +68,7 @@
     * Home pages usually have the most page rank
     * Define a small number of hubs (e.g. category pages)		
 		* Limit home page links to hubs and content with most important phrases
-1. Professionalism
+1. Professional
     * Registered domain name
     * AOSSL - Use HTTPS on all pages - https://letsencrypt.org
     * Website performance
