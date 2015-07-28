@@ -114,7 +114,7 @@ seo.story = {
 					width:100,
 					init: {opacity:0},
 					scripts: [
-					  {scriptType:"step9", action:{anim:2, opacity:100}},
+					  {scriptType:"step9", action:{anim:2, opacity:75}},
 						{scriptType:"step10", action:{anim:1, opacity:0}}
 					]
 				},
@@ -174,7 +174,7 @@ seo.story = {
 					width:100,
 					init: {opacity:0},
 					scripts: [
-					  {scriptType:"step15", action:{anim:2, opacity:100}},
+					  {scriptType:"step15", action:{anim:2, opacity:75}},
 						{scriptType:"step16", action:{anim:1, opacity:0}}
 					]
 				},
@@ -306,11 +306,11 @@ seo.story = {
 					init: {class: "topTitle", pos:[-40,-5], font:8}, wordsInit:{opacity:0, class:"textShadow"},
 					wordScripts: [
 						{scriptType:"step28", action: {anim:{dur:2,stagger:0.1}, opacity:100}},
-						{scriptType:"step34", action: {anim:0.7,opacity:0 }}
+						{scriptType:"step35", action: {anim:0.7,opacity:0 }}
 					],
 					scripts: [
 						{scriptType:"step28", action: {anim:2,scale:110}},
-						{scriptType:"step29", action: {anim:1,scale:90,pos:[-36,-24]}}
+						{scriptType:"step29", action: {anim:1,scale:90,pos:[-38,-24]}}
 					],
 					charScript: {scriptType:"step29", action: {anim:{dur:0.5,stagger:0.02,ease:"sine"}, pos:[-14,-30]} }
 				},
@@ -347,6 +347,53 @@ seo.story = {
 					wordScripts: [
 						{scriptType:"step33", action: {anim:{dur:2,stagger:0.1}, opacity:100}},
 						{scriptType:"step34", action: {anim:0.7, opacity:0 }}
+					]
+				},
+				{	text: "Just Write Good Content and Credibility Comes Naturally",
+					init: {class: "title"}, wordsInit:{opacity:0, textShadow:[[0,0,0,"rgba(255,255,255,1)"],[0.5,0.5,1,"rgba(0,0,0,1)"]]},
+					wordScripts: [
+						{scriptType:"step34", action: {anim:{dur:2,stagger:0.1}, opacity:100}},
+						{scriptType:"step35", action: {anim:0.7, opacity:0 }}
+					]
+				},
+				{	text: "Black Hat",
+					init: {class: "topTitle", pos:[-17,-5]}, wordsInit:{opacity:0, class:"textShadow"},
+					wordScripts: [
+						{scriptType:"step35", action: {anim:{dur:2,stagger:0.3}, opacity:100}},
+						{scriptType:"step40", action: {anim:0.7,opacity:0 }}
+					],
+					scripts: [
+						{scriptType:"step35", action: {anim:2,scale:110}},
+						{scriptType:"step36", action: {anim:1,scale:90,pos:[-38,-24]}}
+					],
+					charScript: {scriptType:"step36", action: {anim:{dur:0.5,stagger:0.02,ease:"sine"}, pos:[-14,-30]} }
+				},
+				{	text: ["Keyword stuffing", "Unrelated keywords", "Invisible text", "Doorway/gateway pages", "Bait-and-switch (Page swapping)", "Duplicated content/mirror sites"],
+					init: {class: "textLine", font:8, pos:{y:3}}, linesInit:{class:"textShadow", opacity:0, pos:[10,0,-30], bullets:true, scale:90},
+					lineScripts: [
+						{scriptType:"step36", action: {anim:{dur:1,stagger:0.1}, opacity:100, pos:false}},
+						{scriptType:"step37", action: {anim:{dur:1,stagger:0.1}, opacity:0, pos:[10,0,-30] }}
+					]
+				},
+				{	text: "Are You Smarter than Google?",
+					init: {class: "title"}, wordsInit:{opacity:0, textShadow:[[0,0,0,"rgba(255,255,255,1)"],[0.5,0.5,1,"rgba(0,0,0,1)"]]},
+					wordScripts: [
+						{scriptType:"step37", action: {delay:0.5, anim:{dur:2,stagger:0.1}, opacity:100}},
+						{scriptType:"step38", action: {anim:0.7, opacity:0 }}
+					]
+				},
+				{	text: "They've Seen it All",
+					init: {class: "title"}, wordsInit:{opacity:0, textShadow:[[0,0,0,"rgba(255,255,255,1)"],[0.5,0.5,1,"rgba(0,0,0,1)"]]},
+					wordScripts: [
+						{scriptType:"step38", action: {anim:{dur:2,stagger:0.1}, opacity:100}},
+						{scriptType:"step39", action: {anim:0.7, opacity:0 }}
+					]
+				},
+				{	text: "It will Hurt your Credibility",
+					init: {class: "title"}, wordsInit:{opacity:0, textShadow:[[0,0,0,"rgba(255,255,255,1)"],[0.5,0.5,1,"rgba(0,0,0,1)"]]},
+					wordScripts: [
+						{scriptType:"step39", action: {anim:{dur:2,stagger:0.1}, opacity:100}},
+						{scriptType:"step40", action: {anim:0.7, opacity:0 }}
 					]
 				}
 			]
