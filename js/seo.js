@@ -395,6 +395,39 @@ seo.story = {
 						{scriptType:"step39", action: {anim:{dur:2,stagger:0.1}, opacity:100}},
 						{scriptType:"step40", action: {anim:0.7, opacity:0 }}
 					]
+				},
+				{	text: "PageRank Mapped to URLs",
+					init: {class: "topTitle", pos:-40, font:8}, wordsInit:{opacity:0, class:"textShadow"},
+					wordScripts: [
+						{scriptType:"step40", action: {anim:{dur:2,stagger:0.3}, opacity:100}},
+						{scriptType:"step44", action: {anim:0.7,opacity:0 }}
+					],
+					scripts: [
+						{scriptType:"step40", action: {anim:2,scale:110}},
+						{scriptType:"step41", action: {anim:1,scale:90,pos:[-39,-24]}}
+					],
+					charScript: {scriptType:"step41", action: {anim:{dur:0.5,stagger:0.02,ease:"sine"}, pos:[-14,-30]} }
+				},
+				{	text: "Use Canonical Links!!!!!",
+					init: {class: "title"}, wordsInit:{opacity:0, textShadow:[[0,0,0,"rgba(255,255,255,1)"],[0.5,0.5,1,"rgba(0,0,0,1)"]]},
+					wordScripts: [
+						{scriptType:"step41", action: {anim:{dur:2,stagger:0.1}, opacity:100}},
+						{scriptType:"step42", action: {anim:0.7, opacity:0 }}
+					]
+				},
+				{	text: "Don't Change URLs",
+					init: {class: "title"}, wordsInit:{opacity:0, textShadow:[[0,0,0,"rgba(255,255,255,1)"],[0.5,0.5,1,"rgba(0,0,0,1)"]]},
+					wordScripts: [
+						{scriptType:"step42", action: {anim:{dur:2,stagger:0.1}, opacity:100}},
+						{scriptType:"step43", action: {anim:0.7, opacity:0 }}
+					]
+				},
+				{	text: "If You Must,<br>Use Permanent Redirects (301)",
+					init: {class: "title"}, wordsInit:{opacity:0, textShadow:[[0,0,0,"rgba(255,255,255,1)"],[0.5,0.5,1,"rgba(0,0,0,1)"]]},
+					wordScripts: [
+						{scriptType:"step43", action: {anim:{dur:2,stagger:0.1}, opacity:100}},
+						{scriptType:"step44", action: {anim:0.7, opacity:0 }}
+					]
 				}
 			]
 		}
