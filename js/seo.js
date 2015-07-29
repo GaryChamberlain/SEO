@@ -26,7 +26,7 @@ seo.story = {
 		}
   },
 	canvas: { padding:3, init: { font: "'Open Sans', sans-serif" }},
-	frame: { aspectRatio: 4/3, init: {bg:"rgba(95,127,255,0.1)"} },
+	frame: { aspectRatio: 4/3 },
 	pages: [
 		{
 			items: [
@@ -427,6 +427,158 @@ seo.story = {
 					wordScripts: [
 						{scriptType:"step43", action: {anim:{dur:2,stagger:0.1}, opacity:100}},
 						{scriptType:"step44", action: {anim:0.7, opacity:0 }}
+					]
+				},
+				{	text: "Distributing Local PageRank",
+					init: {class: "topTitle", pos:-42, font:8}, wordsInit:{opacity:0, class:"textShadow"},
+					wordScripts: [
+						{scriptType:"step44", action: {anim:{dur:2,stagger:0.3}, opacity:100}},
+						{scriptType:"step50", action: {anim:0.7,opacity:0 }}
+					],
+					scripts: [
+						{scriptType:"step44", action: {anim:2,scale:105}},
+						{scriptType:"step45", action: {anim:1,scale:90,pos:[-39,-24]}}
+					],
+					charScript: {scriptType:"step45", action: {anim:{dur:0.5,stagger:0.02,ease:"sine"}, pos:[-14,-30]} }
+				},
+				{	text: "Put Careful Thought into the Hierarchy of Page Content",
+					init: {class: "title"}, wordsInit:{opacity:0, textShadow:[[0,0,0,"rgba(255,255,255,1)"],[0.5,0.5,1,"rgba(0,0,0,1)"]]},
+					wordScripts: [
+						{scriptType:"step45", action: {anim:{dur:2,stagger:0.1}, opacity:100}},
+						{scriptType:"step46", action: {anim:0.7, opacity:0 }}
+					]
+				},
+				{	text: "Home Pages<br>Usually have the<br>Most PageRank",
+					init: {class: "title"}, wordsInit:{opacity:0, textShadow:[[0,0,0,"rgba(255,255,255,1)"],[0.5,0.5,1,"rgba(0,0,0,1)"]]},
+					wordScripts: [
+						{scriptType:"step46", action: {anim:{dur:2,stagger:0.1}, opacity:100}},
+						{scriptType:"step47", action: {anim:0.7, opacity:0 }}
+					]
+				},
+				{	text: "Consider using<br>Hub Pages<br>(e.g. categories)",
+					init: {class: "title"}, wordsInit:{opacity:0, textShadow:[[0,0,0,"rgba(255,255,255,1)"],[0.5,0.5,1,"rgba(0,0,0,1)"]]},
+					wordScripts: [
+						{scriptType:"step47", action: {anim:{dur:2,stagger:0.1}, opacity:100}},
+						{scriptType:"step48", action: {anim:0.7, opacity:0 }}
+					]
+				},
+				{	text: "Limit Home Page Links to Hubs and Content with Most Important Phrases",
+					init: {class: "title"}, wordsInit:{opacity:0, textShadow:[[0,0,0,"rgba(255,255,255,1)"],[0.5,0.5,1,"rgba(0,0,0,1)"]]},
+					wordScripts: [
+						{scriptType:"step48", action: {anim:{dur:2,stagger:0.1}, opacity:100}},
+						{scriptType:"step49", action: {anim:0.7, opacity:0 }}
+					]
+				},
+				{	text: "Set Priorities in Sitemap.xml",
+					init: {class: "title"}, wordsInit:{opacity:0, textShadow:[[0,0,0,"rgba(255,255,255,1)"],[0.5,0.5,1,"rgba(0,0,0,1)"]]},
+					wordScripts: [
+						{scriptType:"step49", action: {anim:{dur:2,stagger:0.1}, opacity:100}},
+						{scriptType:"step50", action: {anim:0.7, opacity:0 }}
+					]
+				},
+				{	text: "Disclosure",
+					init: {class: "topTitle", anchor:[-50,-50]}, wordsInit:{class:"textShadow", opacity:0, pos:[-50,-50]},
+					wordScripts: [
+						{scriptType:"step50", action: {anim:{dur:2,stagger:0.1}, opacity:100, pos:[-47,-50]}},
+						{scriptType:"step51", action: {anim:0.7, opacity:0, pos:[-50,-50] }}
+					]
+				},
+				{	text: ["Sitemaps (HTML and XML)", "Use Google Analytics", "Use Google/Bing webmaster tools", "Embace locality if appropriate"],
+					init: {class: "textLine", font:7.7, pos:{y:3}}, linesInit:{class:"textShadow", opacity:0, pos:[10,0,-30], bullets:true, scale:90},
+					lineScripts: [
+						{scriptType:"step50", action: {anim:{dur:1,stagger:0.1}, opacity:100, pos:false}},
+						{scriptType:"step51", action: {anim:{dur:1,stagger:0.1}, opacity:0, pos:[10,0,-30] }}
+					]
+				},
+				{	text: "Embrace Locality",
+					init: {class: "topTitle", anchor:[-50,-50]}, wordsInit:{class:"textShadow", opacity:0, pos:[-50,-50]},
+					wordScripts: [
+						{scriptType:"step51", action: {delay:0.2, anim:{dur:2,stagger:0.1}, opacity:100, pos:[-47,-50]}},
+						{scriptType:"step52", action: {anim:0.7, opacity:0, pos:[-50,-50] }}
+					]
+				},
+				{	text: ["Set location in webmaster tools", "Include a map on your site", "Understand country-code domains"],
+					init: {class: "textLine", font:7.4, pos:{y:3}}, linesInit:{class:"textShadow", opacity:0, pos:[10,0,-30], bullets:true, scale:90},
+					lineScripts: [
+						{scriptType:"step51", action: {delay:0.2, anim:{dur:1,stagger:0.1}, opacity:100, pos:false}},
+						{scriptType:"step52", action: {anim:{dur:1,stagger:0.1}, opacity:0, pos:[10,0,-30] }}
+					]
+				},
+				{	text: "Professional",
+					init: {class: "topTitle", anchor:[-50,-50]}, wordsInit:{class:"textShadow", opacity:0, pos:[-50,-50]},
+					wordScripts: [
+						{scriptType:"step52", action: {anim:{dur:2,stagger:0.1}, opacity:100, pos:[-47,-50]}},
+						{scriptType:"step53", action: {anim:0.7, opacity:0 }}
+					]
+				},
+				{	text: ["Registered domain name", "AOSSL - Use HTTPS on all pages", "Active social media sites", "Fast (avoid user drop-off)", "Mobile friendly! (responsive)"],
+					init: {class: "textLine", font:7.4, pos:{y:3}}, linesInit:{class:"textShadow", opacity:0, pos:[10,0,-30], bullets:true, scale:90},
+					lineScripts: [
+						{scriptType:"step52", action: {anim:{dur:1,stagger:0.1}, opacity:100, pos:false}},
+						{scriptType:"step53", action: {anim:{dur:1,stagger:0.1}, opacity:0, pos:[10,0,-30] }}
+					]
+				},
+				{	text: "A Bit about Domains",
+					init: {class: "topTitle", anchor:[-50,-50]}, wordsInit:{class:"textShadow", opacity:0, pos:[-47,-50]},
+					wordScripts: [
+						{scriptType:"step53", action: {delay:0.2, anim:{dur:2,stagger:0.1}, opacity:100}},
+						{scriptType:"step54", action: {anim:0.7, opacity:0, pos:[-50,-50] }}
+					]
+				},
+				{	text: ["Domain names with keywords", "Hundreds of new extensions", "Do extra domains help?"],
+					init: {class: "textLine", font:7.4, pos:{y:3}}, linesInit:{class:"textShadow", opacity:0, pos:[10,0,-30], bullets:true, scale:90},
+					lineScripts: [
+						{scriptType:"step53", action: {delay:0.2, anim:{dur:1,stagger:0.1}, opacity:100, pos:false}},
+						{scriptType:"step54", action: {anim:{dur:1,stagger:0.1}, opacity:0, pos:[10,0,-30] }}
+					]
+				},
+				{	text: "What should SEO consultants do?",
+					init: {class: "topTitle", font:7, anchor:[-50,-50]}, wordsInit:{class:"textShadow", opacity:0, pos:[-47,-50]},
+					wordScripts: [
+						{scriptType:"step54", action: {delay:0.2, anim:{dur:2,stagger:0.1}, opacity:100}},
+						{scriptType:"step56", action: {anim:0.7, opacity:0, pos:[-50,-50] }}
+					]
+				},
+				{	text: ["Site audit & initial optimization", "Link profile analysis", "Cleanup bad links", "'disavow backlinks' if needed", "Google Analytics analysis"],
+					init: {class: "textLine", font:7.4, pos:{y:3}}, linesInit:{class:"textShadow", opacity:0, pos:[10,0,-30], bullets:true, scale:90},
+					lineScripts: [
+						{scriptType:"step54", action: {delay:0.2, anim:{dur:1,stagger:0.1}, opacity:100, pos:false}},
+						{scriptType:"step55", action: {anim:{dur:1,stagger:0.1}, opacity:0, pos:[10,0,-30] }}
+					]
+				},
+				{	text: ["Keyword/competitor research", "Outreach & credible link building", "Online public relations", "Create quality content", "Ongoing analysis and reporting"],
+					init: {class: "textLine", font:7.4, pos:{y:3}}, linesInit:{class:"textShadow", opacity:0, pos:[10,0,-30], bullets:true, scale:90},
+					lineScripts: [
+						{scriptType:"step55", action: {delay:0.2, anim:{dur:1,stagger:0.1}, opacity:100, pos:false}},
+						{scriptType:"step56", action: {anim:{dur:1,stagger:0.1}, opacity:0, pos:[10,0,-30] }}
+					]
+				},
+				{	text: "WordPress",
+					init: {class: "topTitle", anchor:[-50,-50]}, wordsInit:{class:"textShadow", opacity:0, pos:[-47,-50]},
+					wordScripts: [
+						{scriptType:"step56", action: {delay:0.2, anim:{dur:2,stagger:0.1}, opacity:100}},
+						{scriptType:"step57", action: {anim:0.7, opacity:0, pos:[-50,-50] }}
+					]
+				},
+				{	text: ["WordPress simplifies SEO", "Use a responsive, SEO-friendly theme", "Still need quality content and planning!!", "Use an SEO plugin (I recommend Yoast)"],
+					init: {class: "textLine", font:7, pos:{y:3}}, linesInit:{class:"textShadow", opacity:0, pos:[10,0,-30], bullets:true, scale:90},
+					lineScripts: [
+						{scriptType:"step56", action: {delay:0.2, anim:{dur:1,stagger:0.1}, opacity:100, pos:false}},
+						{scriptType:"step57", action: {anim:{dur:1,stagger:0.1}, opacity:0, pos:[10,0,-30] }}
+					]
+				},
+				{	text: "Finishing Up",
+					init: {class: "topTitle", anchor:[-50,-50]}, wordsInit:{class:"textShadow", opacity:0, pos:[-47,-50]},
+					wordScripts: [
+						{scriptType:"step57", action: {delay:0.2, anim:{dur:2,stagger:0.1}, opacity:100}},
+						{scriptType:"step58", action: {anim:0.7, opacity:0, pos:[-50,-50] }}
+					]
+				},
+				{	text: ["Let's dissect a page", "Links to tools", "Links to read"],
+					init: {class: "textLine", font:9, pos:{y:3}}, linesInit:{class:"textShadow", opacity:0, pos:[10,0,-30], bullets:true, scale:90},
+					lineScripts: [
+						{scriptType:"step57", action: {delay:0.2, anim:{dur:1,stagger:0.1}, opacity:100, pos:false}},
+						{scriptType:"step58", action: {anim:{dur:1,stagger:0.1}, opacity:0, pos:[10,0,-30] }}
 					]
 				}
 			]

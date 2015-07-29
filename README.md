@@ -68,11 +68,6 @@
     * Home pages usually have the most page rank
     * Define a small number of hubs (e.g. category pages)		
 		* Limit home page links to hubs and content with most important phrases
-1. Professional
-    * Registered domain name
-    * AOSSL - Use HTTPS on all pages - https://letsencrypt.org
-    * Website performance
-		* Popular social media sites (Google+, Twitter, Facebook, …)
 1. Disclosure
     * Use Google Analytics to monitor site usage
     * Use Google/Bing webmaster tools
@@ -81,12 +76,16 @@
         * Set location in Google/Bing webmaster tools
         * Include a map on your site (e.g. google maps)
         * Include a map on your site (e.g. google maps)
-1. Google like what user's like
-    * If users stay on your site for awhile, they probably like it
-		* They won't like it if it isn't..
-        * Good, appropriate content
-        * Fast (User drop off proportional to page speed)
+1. Professional
+    * Registered domain name
+    * AOSSL - Use HTTPS on all pages - https://letsencrypt.org
+		* Popular social media sites (Google+, Twitter, Facebook, …)
+    * Fast (User drop off proportional to page speed)
     * Mobile friendly! (responsive design)
+1. A bit about domains
+    * Get a domain name, ideally with important keywords
+    * Only use non-general two-letter domains if you are regional
+		* Do extra domains help?
 1. Important HTML tags
     * &lt;title&gt;...&lt;/title&gt;
     * &lt;meta name="description" content="...." /&gt;
@@ -94,7 +93,7 @@
     * &lt;link rel="canonical" href="https://example.com/..." /&gt;
     * &lt;h1>...&lt;/h1&gt;
     * &lt;a rel="nofollow" href="http://www.other.com/"&gt;Other Site&lt;/a&gt;
-1. What do (should) SEO consultants do and not do
+1. What should SEO consultants do (and not do)
     * Ensure canonical URLs are set up correctly
     * Ensure key phrases are being used optimally
     * Check for and fix unintentional black hat issues
@@ -103,10 +102,6 @@
     * Add links from credible directories (e.g. relevant Wikipedia, DMOZ)
     * Don't: add a bunch of links from anywhere (e.g. link farms)
     * Don't: write content, unless it's good!!
-1. A bit about domains
-    * Get a domain name, ideally with important keywords
-    * Don't use non-generic two-letter domains (geotargeted)
-		* Don't point extra domains to your site without canonical links
 1. WordPress
     * WordPress with a responsive, SEO-friendly theme does most of the technicalities for you
     * You still need to:
