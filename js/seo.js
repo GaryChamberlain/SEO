@@ -567,18 +567,28 @@ seo.story = {
 						{scriptType:"step57", action: {anim:{dur:1,stagger:0.1}, opacity:0, pos:[10,0,-30] }}
 					]
 				},
-				{	text: "Finishing Up",
+				{	text: "Finishing Up - Links",
 					init: {class: "topTitle", anchor:[-50,-50]}, wordsInit:{class:"textShadow", opacity:0, pos:[-47,-50]},
 					wordScripts: [
 						{scriptType:"step57", action: {delay:0.2, anim:{dur:2,stagger:0.1}, opacity:100}},
 						{scriptType:"step58", action: {anim:0.7, opacity:0, pos:[-50,-50] }}
 					]
 				},
-				{	text: ["Let's dissect a page", "Links to tools", "Links to read"],
-					init: {class: "textLine", font:9, pos:{y:3}}, linesInit:{class:"textShadow", opacity:0, pos:[10,0,-30], bullets:true, scale:90},
+				{	text: "https://github.com/GaryChamberlain/SEO",
+					init: {class: "textLine", font:6.52, pos:{y:3}}, linesInit:{class:"textShadow", opacity:0, pos:[10,0,-30], bullets:true, scale:90},
 					lineScripts: [
 						{scriptType:"step57", action: {delay:0.2, anim:{dur:1,stagger:0.1}, opacity:100, pos:false}},
 						{scriptType:"step58", action: {anim:{dur:1,stagger:0.1}, opacity:0, pos:[10,0,-30] }}
+					]
+				},
+				{	itemType: "image",
+				  src: "prostyle.png",
+					width: 70,
+					init: {opacity:0, scale:80},
+					scripts: [
+						{scriptType:"step58", action: {anim:0.3, opacity:80}},
+						{scriptType:"step58", action: {anim:{dur:3, ease:"elastic"}, scale: {x:100}}},
+						{scriptType:"step58", action: {anim:{dur:3, ease:"extra elastic"}, scale: {y:100}}}
 					]
 				}
 			]
