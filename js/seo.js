@@ -335,7 +335,7 @@ seo.story = {
 						{scriptType:"step32", action: {anim:0.7, opacity:0 }}
 					]
 				},
-				{	text: "Links from<br>Highly Credibility Sites<br>are Really Good!",
+				{	text: "Links from<br>High-Credibility Sites<br>are Really Good!",
 					init: {class: "title", font:8}, wordsInit:{opacity:0, textShadow:[[0,0,0,"rgba(255,255,255,1)"],[0.5,0.5,1,"rgba(0,0,0,1)"]]},
 					wordScripts: [
 						{scriptType:"step32", action: {anim:{dur:2,stagger:0.1}, opacity:100}},
