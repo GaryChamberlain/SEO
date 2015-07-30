@@ -1,8 +1,8 @@
 # SEO Presentation
 
 **[Click Here to Watch It](http://GaryChamberlain.com/SEO)**
-_Navigate the presentation with left/right keys or a presentation clicker._
 
+* _Navigate the presentation with left/right keys or a presentation clicker._
 * This presentation was created with [ProStyle](http://prostyle.io).
 * See a [mindmap image](https://raw.githubusercontent.com/GaryChamberlain/SEO/gh-pages/assets/images/Rosa.jpg) of the presentation by Rosa Aleman.
 
