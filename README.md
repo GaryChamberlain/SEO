@@ -1,6 +1,7 @@
 # SEO Presentation
 
-http://GaryChamberlain.com/SEO
+**[Click to Watch It](http://GaryChamberlain.com/SEO)**
+
 
 Navigate the presentation with left/right keys or a presentation clicker.
 
