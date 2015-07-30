@@ -2,6 +2,8 @@
 
 http://GaryChamberlain.com/SEO
 
+Navigate the presentation with left/right keys or a presentation clicker.
+
 This presentation was created with [ProStyle](http://prostyle.io).
 
 ## Search Engine tools

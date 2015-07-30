@@ -110,7 +110,7 @@ seo.story = {
 				},
 				{
 					itemType:"image",
-					src:"images/HTML1.png",
+					src:"assets/images/HTML1.png",
 					width:100,
 					init: {opacity:0},
 					scripts: [
@@ -120,7 +120,7 @@ seo.story = {
 				},
 				{
 					itemType:"image",
-					src:"images/HTML2.png",
+					src:"assets/images/HTML2.png",
 					width:100,
 					init: {opacity:0},
 					scripts: [
@@ -130,7 +130,7 @@ seo.story = {
 				},
 				{
 					itemType:"image",
-					src:"images/HTML3.png",
+					src:"assets/images/HTML3.png",
 					width:100,
 					init: {opacity:0},
 					scripts: [
@@ -140,7 +140,7 @@ seo.story = {
 				},
 				{
 					itemType:"image",
-					src:"images/HTML4.png",
+					src:"assets/images/HTML4.png",
 					width:100,
 					init: {opacity:0},
 					scripts: [
@@ -150,7 +150,7 @@ seo.story = {
 				},
 				{
 					itemType:"image",
-					src:"images/HTML5.png",
+					src:"assets/images/HTML5.png",
 					width:100,
 					init: {opacity:0},
 					scripts: [
@@ -160,7 +160,7 @@ seo.story = {
 				},
 				{
 					itemType:"image",
-					src:"images/HTML6.png",
+					src:"assets/images/HTML6.png",
 					width:100,
 					init: {opacity:0},
 					scripts: [
@@ -170,7 +170,7 @@ seo.story = {
 				},
 				{
 					itemType:"image",
-					src:"images/HTML1.png",
+					src:"assets/images/HTML1.png",
 					width:100,
 					init: {opacity:0},
 					scripts: [
@@ -582,7 +582,7 @@ seo.story = {
 					]
 				},
 				{	itemType: "image",
-				  src: "prostyle.png",
+				  src: "assets/images/prostyle.png",
 					width: 70,
 					init: {opacity:0, scale:80},
 					scripts: [
